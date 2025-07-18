@@ -10,3 +10,30 @@ let NineProposal = "До скорой встречи!";
 let TenProposal = "Лето - моё любимое время года.";
 let ElevenProposal = "Летние каникулы - это самый долгий отдых от учёбы.";
 let TwelveProposal = "В жаркие дни я ходила на речку. ";
+
+let OneSymbol = OneProposal[2];
+
+let TwoSymbol = TwoProposal[4];
+
+let ThreeSymbol = ThreeProposal[8];
+
+let FourSymbol = FourProposal[9];
+
+let FiveSymbol = FiveProposal[29];
+
+let SixSymbol = SixProposal[4];
+
+let SevenSymbol = SevenProposal[11];
+
+let EightSymbol = EightProposal[0];
+
+let NineSymbol = NineProposal[16];
+
+let TenSymbol = TenProposal[0];
+
+let ElevenSymbol = ElevenProposal[22];
+
+let TwelveSymbol = TwelveProposal[13];
+
+let SecretMessage = `${OneSymbol}${TwoSymbol}${ThreeSymbol}${FourSymbol}${FiveSymbol}${SixSymbol}${SevenSymbol}${EightSymbol}${NineSymbol}${TenSymbol}${ElevenSymbol}${TwelveSymbol}`;
+console.log(SecretMessage.toLowerCase());
